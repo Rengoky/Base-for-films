@@ -56,12 +56,12 @@
 В ответе на запрос приходит token (JWT-токен), как и при самостоятельной регистрации.
 
 ### Содержимое ENV
-- DB_ENGINE
-- DB_NAME
-- POSTGRES_USER
-- POSTGRES_PASSWORD
-- DB_HOST
-- DB_PORT
+- DB_ENGINE: django.db.backends.postgresql
+- DB_NAME: default_name
+- POSTGRES_USER: default_user
+- POSTGRES_PASSWORD: 1111
+- DB_HOST: db
+- DB_PORT: 5432
 
 ### Как запустить проект:
 
